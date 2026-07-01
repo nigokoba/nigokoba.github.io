@@ -164,64 +164,41 @@ footer {
 }
 @media (max-width: 600px) {
   body {
-    padding: 12px;
+    padding: 10px;
   }
 
   header {
-    padding: 32px 20px;
+    padding: 32px 24px;
   }
 
   header h1 {
-    font-size: 36px;
+    font-size: 34px;
+  }
+
+  header p {
+    font-size: 14px;
   }
 
   nav a {
+    font-size: 14px;
     margin-right: 16px;
     margin-bottom: 8px;
   }
 
   main {
-    padding: 28px 20px;
+    padding: 32px 22px;
   }
 
-  article h2,
-  section h2 {
-    font-size: 26px;
-  }
-}
-@media (max-width: 600px) {
-  body {
-    padding: 12px;
+  section {
+    margin-bottom: 32px;
   }
 
-  header {
-    padding: 32px 20px;
+  section h2,
+  article h2 {
+    font-size: 24px;
   }
 
-  header h1 {
-    font-size: 36px;
-  }
-
-  nav {
-    margin: 16px 0 24px;
-  }
-
-  nav a {
-    margin-right: 16px;
-    margin-bottom: 8px;
-    font-size: 16px;
-  }
-
-  main {
-    padding: 28px 20px;
-  }
-
-  article h2,
-  section h2 {
-    font-size: 26px;
-  }
-
-  .photo-card img {
-    height: auto;
+  footer {
+    font-size: 14px;
   }
 }
