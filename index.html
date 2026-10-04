@@ -1,56 +1,25 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>kobatomoの部屋</title>
-  <link rel="stylesheet" href="css/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HTMLとCSSで作る個人サイト。制作したものと、日記や写真を紹介します。">
+<title>kobatomoの部屋</title>
+<link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-
-  <header>
-    <h1>kobatomoの部屋</h1>
-    <p>日記、写真、思ったことを置いておく場所です。</p>
-  </header>
-
-  <nav>
-    <a href="index.html" class="current">トップ</a>
-    <a href="diary.html">日記</a>
-    <a href="photo.html">写真</a>
-    <a href="about.html">自己紹介</a>
-    <a href="contact.html">問い合わせ</a>
-  </nav>
-
-<main>
-  <section>
-    <h2>最近の更新</h2>
-    <ul>
-      <li><a href="diary.html">2026/07/03 日記を更新しました</a></li>
-      <li><a href="photo.html">写真を追加しました</a></li>
-      <li><a href="about.html">自己紹介ページを作りました</a></li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>このサイトについて</h2>
-    <p>日記、写真、思ったことを置いておく個人サイトです。</p>
-    <p>自分のペースで少しずつ更新していきます。</p>
-  </section>
-
-  <section>
-    <h2>ページ一覧</h2>
-    <ul>
-      <li><a href="diary.html">日記</a></li>
-      <li><a href="photo.html">写真</a></li>
-      <li><a href="about.html">自己紹介</a></li>
-      <li><a href="contact.html">問い合わせ</a></li>
-    </ul>
-  </section>
-</main>
-
-  <footer>
-    <p>&copy; kobatomo</p>
-  </footer>
-
+<a class="skip-link" href="#main">本文へ移動</a>
+<header><p class="eyebrow">KOBATOMO / PERSONAL WEBSITE</p><h1>kobatomoの部屋</h1><p>HTMLとCSSで作る個人サイト。制作したものと、日記や写真を紹介します。</p></header>
+<nav aria-label="メインメニュー"><a href="index.html" class="current" aria-current="page">トップ</a>
+<a href="about.html">自己紹介</a>
+<a href="diary.html">日記</a>
+<a href="photo.html">写真</a>
+<a href="contact.html">問い合わせ</a></nav>
+<main id="main">
+<section><h2>こんにちは、kobatomoです</h2><p>HTMLとCSSを使い、個人サイトを制作しています。日記を書いたり、散歩中に写真を撮ったり、気になったことを調べたりしています。</p><div class="actions"><a class="button" href="about.html">自己紹介・技術経験を見る</a><a class="button secondary" href="contact.html">問い合わせ</a></div></section>
+<section id="works"><h2>成果物紹介</h2><article class="work-card"><p class="eyebrow">WEB SITE / HTML・CSS</p><h3>kobatomoの部屋</h3><p>制作内容と日々の記録を、自分のペースで公開する個人サイトです。</p><dl class="profile-list"><dt>制作内容</dt><dd>トップ、自己紹介、日記、写真、問い合わせのページ構成と共通スタイル。</dd><dt>使用技術</dt><dd>HTML / CSS / GitHub Pages</dd><dt>工夫した点</dt><dd>共通メニューでページを移動しやすくし、画面幅に合わせて余白と写真一覧の列数を調整しています。</dd></dl><div class="actions"><a href="https://github.com/nigokoba/nigokoba.github.io">ソースコードを見る</a><a href="photo.html">写真ページを見る</a></div></article></section>
+<section><h2>最近の更新</h2><ul><li><a href="diary.html#portfolio">2026/10/05 サイトの構成とスマートフォン表示を改善</a></li><li><a href="photo.html">写真一覧を見る</a></li></ul></section>
+<section><h2>日々の記録</h2><div class="link-grid"><a class="link-card" href="diary.html"><strong>日記・制作記録</strong><span>日々のことやサイトの改善記録。</span></a><a class="link-card" href="photo.html"><strong>写真</strong><span>散歩で見つけた風景と日常のスナップ。</span></a></div></section></main>
+<footer><p>&copy; kobatomo · <a href="/contact.html">問い合わせ</a> · <a href="https://github.com/nigokoba/nigokoba.github.io">GitHub</a></p></footer>
 </body>
 </html>

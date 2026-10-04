@@ -4,24 +4,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>写真 - kobatomoの部屋</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+<a class="skip-link" href="#main">本文へ移動</a>
 
   <header>
     <h1>写真</h1>
     <p>撮った写真を置いていきます。</p>
   </header>
 
-  <nav>
-    <a href="index.html">トップ</a>
-    <a href="diary.html">日記</a>
-    <a href="photo.html" class="current">写真</a>
-    <a href="about.html">自己紹介</a>
-    <a href="contact.html">問い合わせ</a>
-  </nav>
+  <nav aria-label="メインメニュー"><a href="index.html">トップ</a>
+<a href="about.html">自己紹介</a>
+<a href="diary.html">日記</a>
+<a href="photo.html" class="current" aria-current="page">写真</a>
+<a href="contact.html">問い合わせ</a></nav>
 
-  <main>
+  <main id="main">
     <section>
       <h2>写真一覧</h2>
       <p>散歩中に撮った写真や、気に入った風景を置いていきます。</p>
@@ -30,7 +29,7 @@
 
         <figure class="photo-card">
           <a href="images/photo01.jpg">
-            <img src="images/photo01.jpg" alt="街で撮った写真">
+            <img loading="lazy" decoding="async" src="images/photo01.jpg" alt="街で撮った写真">
           </a>
           <figcaption>
             <span class="photo-date">2026/07/01</span>
@@ -41,7 +40,7 @@
 
         <figure class="photo-card">
           <a href="images/photo02.jpg">
-            <img src="images/photo02.jpg" alt="風景写真">
+            <img loading="lazy" decoding="async" src="images/photo02.jpg" alt="風景写真">
           </a>
           <figcaption>
             <span class="photo-date">2026/07/02</span>
@@ -52,7 +51,7 @@
 
         <figure class="photo-card">
           <a href="images/photo03.jpg">
-            <img src="images/photo03.jpg" alt="日常のスナップ写真">
+            <img loading="lazy" decoding="async" src="images/photo03.jpg" alt="日常のスナップ写真">
           </a>
           <figcaption>
             <span class="photo-date">2026/07/03</span>

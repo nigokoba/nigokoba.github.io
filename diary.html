@@ -4,24 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>日記 - kobatomoの部屋</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+<a class="skip-link" href="#main">本文へ移動</a>
 
   <header>
     <h1>日記</h1>
     <p>日々のことを書いていきます。</p>
   </header>
 
-  <nav>
-    <a href="index.html">トップ</a>
-    <a href="diary.html" class="current">日記</a>
-    <a href="photo.html">写真</a>
-    <a href="about.html">自己紹介</a>
-    <a href="contact.html">問い合わせ</a>
-  </nav>
+  <nav aria-label="メインメニュー"><a href="index.html">トップ</a>
+<a href="about.html">自己紹介</a>
+<a href="diary.html" class="current" aria-current="page">日記</a>
+<a href="photo.html">写真</a>
+<a href="contact.html">問い合わせ</a></nav>
 
-  <main>
+  <main id="main">
+<article id="portfolio"><p class="date"><time datetime="2026-10-05">2026/10/05</time></p><h2>制作内容が伝わるサイトへ</h2><p>トップページに成果物紹介、自己紹介ページに技術経験を追加しました。</p><p>小さな画面で写真一覧がはみ出さないように列数を調整し、メニューの押せる範囲とキーボード操作時の表示も改善しました。</p><p><a href="index.html#works">成果物紹介を見る</a></p></article>
     <article>
       <p class="date">2026/07/01</p>
       <h2>サイトを作り始めた</h2>
